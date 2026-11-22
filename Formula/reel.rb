@@ -2,28 +2,28 @@
 class Reel < Formula
   desc "Turn short .reel scripts into explainer videos"
   homepage "https://github.com/nessalabs/nessa-video"
-  version "0.4.0"
+  version "0.5.0"
   license "GPL-2.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/nessalabs/nessa-video/releases/download/v0.4.0/reel-v0.4.0-darwin-arm64.tar.gz"
-      sha256 "6613062ce43b25425745c84b5b8db8dd3510488ffd189507ef9d0082b06878f2"
+      url "https://github.com/nessalabs/nessa-video/releases/download/v0.5.0/reel-v0.5.0-darwin-arm64.tar.gz"
+      sha256 "f85fb7899661ee4a622d0811f6f0e3ed55860a23bb13dc59afe210d44891f2fe"
     end
     on_intel do
-      url "https://github.com/nessalabs/nessa-video/releases/download/v0.4.0/reel-v0.4.0-darwin-amd64.tar.gz"
-      sha256 "ed3ea907e60758baf8016e98dd8746c404f00d661d580d2f14f1012e9e12955e"
+      url "https://github.com/nessalabs/nessa-video/releases/download/v0.5.0/reel-v0.5.0-darwin-amd64.tar.gz"
+      sha256 "3787700ae291c19c8b5bc46e8b9fd69177db651391bc8436cf963459bd161687"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nessalabs/nessa-video/releases/download/v0.4.0/reel-v0.4.0-linux-arm64.tar.gz"
-      sha256 "f8345c43a99d515c3df3da57967bd4a7eefc03cccbf0ed2b989462b43c4f5fd0"
+      url "https://github.com/nessalabs/nessa-video/releases/download/v0.5.0/reel-v0.5.0-linux-arm64.tar.gz"
+      sha256 "c6e12d54581a679531375012a040d771c871766adc6156c384f433763a7dd0b4"
     end
     on_intel do
-      url "https://github.com/nessalabs/nessa-video/releases/download/v0.4.0/reel-v0.4.0-linux-amd64.tar.gz"
-      sha256 "c922d6d0fc1afb0d87b4fb0734e728aa3a9e706d6f632efcf212934ae4340f8a"
+      url "https://github.com/nessalabs/nessa-video/releases/download/v0.5.0/reel-v0.5.0-linux-amd64.tar.gz"
+      sha256 "15149ad0117e64e39ebf23957cb9909fe63bdd55ac454f2eac1463f53d973208"
     end
   end
 
